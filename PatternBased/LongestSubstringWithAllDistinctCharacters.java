@@ -1,7 +1,7 @@
 // Given a string, find the length of the longest substring, which has all distinct characters.
 
 
-public class Problem4
+public class Problem5
 {
     public static int longestSubstringWithAllDistinctCharacters(String s,int k)
     {
