@@ -27,6 +27,6 @@ public class Problem3
     {
             String s="araaci";
             int k=2;
-            System.out.println("The smallest contiguous subarray => "+(longestSubstringWithNoMoreThanKDistinctCharacters(s,k)));
+            System.out.println("The longest substring => "+(longestSubstringWithNoMoreThanKDistinctCharacters(s,k)));
     }
 }
