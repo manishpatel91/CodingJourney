@@ -14,11 +14,7 @@ public class LinkedListCycle {
   public static boolean hasCycle(ListNode head) {
     ListNode sp = head,fp = head, temp = head;
     
-    if(temp == null || head.next == null)
-        return false;
-    if(temp.next == head )
-        return true;
-    while(fp!=null)
+    while(fp!=null && fp.next!=null)
     {
         sp=sp.next;
         fp=fp.next.next;
