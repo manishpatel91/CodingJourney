@@ -29,7 +29,6 @@ public class MiddleofLinkedList {
     head.next.next.next = new ListNode(4);
     head.next.next.next.next = new ListNode(5);
     //head.next.next.next.next.next = new ListNode(6);
-    ListNode headcycle= MiddleofLinkedList.middleElement(head);
     System.out.println("Middle element is : "+ middleElement(head).value);
 
   }
