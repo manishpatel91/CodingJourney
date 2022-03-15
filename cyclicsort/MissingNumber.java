@@ -25,12 +25,6 @@ public class MissingNumber {
     return nums.length;
   }
 
-  private static void swap(int[] arr, int i, int j) {
-    int temp = arr[i];
-    arr[i] = arr[j];
-    arr[j] = temp;
-  }
-
   public static void main(String[] args) 
   {
       System.out.println(MissingNumber.findMissingNumber(new int[] { 4, 0, 3, 1 }));
